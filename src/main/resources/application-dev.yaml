@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: Pharos-Register-Service
+server:
+  port: 9999
