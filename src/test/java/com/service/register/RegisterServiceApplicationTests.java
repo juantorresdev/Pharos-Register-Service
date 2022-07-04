@@ -1,4 +1,4 @@
-package com.service.registrer;
+package com.service.register;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
