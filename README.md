@@ -7,3 +7,9 @@ The Pharos Register Service allows the register of new applicants to the Pharos 
 * Create a Maven configuration and add the the run command:
 ```spring-boot:run ```
 * Add the environment variable: ``` spring.profiles.active=dev```
+
+## Endpoints
+
+Path | GET | POST | PUT | DELETE 
+--- |-----| --- | --- | --- 
+/health | x   |  |  |  
