@@ -46,6 +46,7 @@ public class RegisterController {
             bodyBuilder = ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR);
         }
 
+        logger.info("Response: "+response.toString());
         return bodyBuilder.body(response);
 
     }

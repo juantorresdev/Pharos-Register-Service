@@ -6,7 +6,7 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name="Candidate_Register", schema="pharos.register")
+@Table(name="Candidate", schema="pharos.register")
 public class Candidate {
 
     @Id

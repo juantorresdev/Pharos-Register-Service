@@ -17,7 +17,7 @@ public class RegisterServiceImpl implements RegisterService {
 
     Logger logger = LoggerFactory.getLogger(RegisterServiceImpl.class);
 
-    public String registerCandidate(String username){
+    public String registerCandidate(String username) throws Exception{
 
         UUID uuid = null;
         Candidate candidate = new Candidate();
@@ -36,6 +36,7 @@ public class RegisterServiceImpl implements RegisterService {
             logger.info("Saving candidate" + candidate.toString());
 
             candidateRepository.save(candidate);
+
         } catch (Exception e){
             e.printStackTrace();
         }
