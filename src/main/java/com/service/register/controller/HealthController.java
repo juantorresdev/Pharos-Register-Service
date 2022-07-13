@@ -1,4 +1,4 @@
-package com.service.register;
+package com.service.register.controller;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
